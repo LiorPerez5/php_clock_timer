@@ -26,7 +26,7 @@
             // if for min 
             mins = i_Mins
             secs = mins * 60
-        }
+            }
         startTimer(secs * 1000)
     }
 
@@ -42,7 +42,7 @@
             secs -= 1000;
             secsToDisplay--
             if (secs == 0) {
-                console.log("Stopped");
+                console.log("Stopped test git ");
                 clearInterval(myInterval);
 
             }
